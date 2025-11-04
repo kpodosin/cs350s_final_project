@@ -1,0 +1,24 @@
+{
+  "format_version": "1.1",
+  "package_name": "chromium/third_party/enterprise_companion/chromium_mac_amd64",
+  "install_mode": "copy",
+  "actual_install_mode": "copy",
+  "files": [
+    {
+      "name": "ChromiumEnterpriseCompanion_test.app/Contents/Info.plist",
+      "size": 1328,
+      "hash": "C05qzZipziZXPS6fwJi1iqaPY31xCyMfD_8a4j9JfJoC"
+    },
+    {
+      "name": "ChromiumEnterpriseCompanion_test.app/Contents/MacOS/ChromiumEnterpriseCompanion_test",
+      "size": 18202408,
+      "executable": true,
+      "hash": "-qZVZqXswv-p-n6TT-5-cR0aQq1lhF5sDa7CgsQzqiwC"
+    },
+    {
+      "name": "ChromiumEnterpriseCompanion_test.app/Contents/PkgInfo",
+      "size": 8,
+      "hash": "glAhkclISwTWhTdPmHmgBmBpxJuKyuegSwHTjQfo7KAC"
+    }
+  ]
+}
