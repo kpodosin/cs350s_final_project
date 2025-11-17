@@ -173,6 +173,7 @@ void SQLitePersistentStoreBackendBase::PostClientTask(
     const base::Location& origin,
     base::OnceClosure task) {
   if (!client_task_runner_->PostTask(origin, std::move(task))) {
+    LOG(ERROR) << "TESTING";
     LOG(WARNING) << "Failed to post task from " << origin.ToString()
                  << " to client_task_runner_.";
   }

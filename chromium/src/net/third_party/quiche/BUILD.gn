@@ -619,6 +619,7 @@ source_set("quiche_tests") {
     "src/quiche/quic/core/crypto/quic_hkdf_test.cc",
     "src/quiche/quic/core/crypto/transport_parameters_test.cc",
     "src/quiche/quic/core/crypto/web_transport_fingerprint_proof_verifier_test.cc",
+    "src/quiche/quic/core/crypto/protected_initial_encrypter.cc",
     "src/quiche/quic/core/deterministic_connection_id_generator_test.cc",
     "src/quiche/quic/core/frames/quic_frames_test.cc",
     "src/quiche/quic/core/http/http_decoder_test.cc",
